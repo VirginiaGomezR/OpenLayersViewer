@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  background-color: #2290cb;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  height: 94vh;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.toggle {
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 24px;
+}
+
+.toggle input {
+  display: none;
+}
+
+.roundbutton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 120%;
+  background-color: #33455e;
+  display: block;
+  transition: all 0.3s;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.roundbutton::before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 24px;
+  border-radius: 100%;
+  display: block;
+  left: 4px;
+  bottom: 0px;
+  background-color: #ffffff;
+  transition: all 0.3s;
+}
+
+input:checked + .roundbutton {
+  background-color: #000;
+}
+
+input:checked + .roundbutton::before {
+  transform: translate(23px, 0);
+}
+
+.text-toggle {
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0 0 0 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: -50px;
+  left: 20px;
+  min-width: 120px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */
