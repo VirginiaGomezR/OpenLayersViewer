@@ -1,0 +1,28 @@
+{
+  "name": "openlayersviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ol": "^6.5.0",
+    "vanilla-picker": "^2.11.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VirginiaGomezR/OpenLayersViewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VirginiaGomezR/OpenLayersViewer/issues"
+  },
+  "homepage": "https://github.com/VirginiaGomezR/OpenLayersViewer#readme"
+}

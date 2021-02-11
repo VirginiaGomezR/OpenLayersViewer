@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/core/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <script src="https://kit.fontawesome.com/c75582e3c5.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./images/favicon.ico" />
+    <title>Visor</title>
+</head>
+<body>
+    <header class="header">
+        <label class="toggle">
+            <input id="js-checkbox" type="checkbox">
+            <span class="roundbutton"></span>
+        </label>
+        <label id="js-toggle" class="text-toggle">Estilo A</label>
+    </header>
+    <main>
+    <div id="main" class="main">
+        <div id="map" class="map"></div>
+    </div>
+        <div id="popup" class="ol-popup">
+            <div id="popup-content">
+                <div id="js-text-popup"></div> 
+            </div>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
