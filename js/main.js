@@ -1,4 +1,3 @@
-import 'ol/ol.css';
 import {vectorLayer, overlay, map} from './openLayers';
 import {defaultStyle, strokeStyle} from './vectorLayerStyles';
 import {query, getLocalStorageData} from './helpers';
